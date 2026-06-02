@@ -5,12 +5,7 @@ import sys
 import os
 
 # ── Load Artifacts ────────────────────────────────────────────────────────────
-def load_artifacts():
-    """Load trained model, encoders and scaler from disk."""
-    from pathlib import Path
-
-     BASE_DIR = Path(__file__).parent
-     MODEL_PATH = BASE_DIR / "models" / "best_model.pkl"
+    with open('models/best_model.pkl', 'rb') as f:
         model = pickle.load(f)
     with open('models/encoders.pkl', 'rb') as f:
         encoders = pickle.load(f)
