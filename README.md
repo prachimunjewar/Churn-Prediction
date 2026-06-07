@@ -9,7 +9,7 @@ Telecom companies lose significant revenue when customers leave (churn). This sy
 ---
 
 ## 🚀 Live Demo
-
+https://churn-prediction-gynlsm6nz9gji5angv6zrd.streamlit.app/
 
 ---
 
